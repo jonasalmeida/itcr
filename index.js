@@ -6,7 +6,7 @@ console.log('index.js loaded, port = '+port)
 http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'});
    //if(request.url!="/favicon.ico"){
-       response.end('Hello World at '+Date());
+       response.end('Hello World at :-) '+Date());
    //}else{
    //    response.end()
    //}
